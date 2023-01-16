@@ -1,0 +1,56 @@
+baseURL = 'http://munirmahedi-paviwala.github.io/'
+languageCode = 'en-us'
+title = "Munirmahedi Paviwala"
+theme = "cactus"
+css = ["assets/scss/style.scss"]
+[params]
+  colortheme = "light" # dark, light, white, or classic
+  rss = false # generate rss feed. default value is false
+  googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
+  showAllPostsArchive = false # default
+
+#Home page settings
+  description = "I am Munirmahedi Paviwala, an economic history student from India – focusing on mostly pre-modern period. My research interests include the intersections of economic history with social, environmental and public history.  In the research sections of the post, you can find some of my previous research projects, and their outcomes. In the Timelines sections, you can access some of the timelines focusing on economic history, created in the spirit of the public history."
+  #mainSection = "timelines" # your main section
+  #showAllPostsOnHomePage = false # default
+  #postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+  #tagsOverview = true # show tags overview by default.
+  #showProjectsList = false # show projects list by default (if projects data file exists).
+  #projectsUrl = "https://github.com/gohugoio" # title link for projects list
+
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Timelines"
+url = "/timelines"
+weight = 2
+
+[[menu.main]]
+ name = "CV"
+ url = "/cv/munirmahedi_resume_jan_2023.pdf/"
+ weight = 3
+
+[[menu.main]]
+name = "Research"
+url = "/research"
+weight = 4
+
+
+  # the value of name should be an valid font awesome icon name (brands type)
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/munirmahedi-paviwala"
+  [[params.social]]
+    name = "email"
+    link = "munirmahedi_paviwala.siaspg22@krea.ac.in"  # no need for "mailto:" in the head
+
+
+
+  show_updated = false # default=true
+  showReadTime = true # default
